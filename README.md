@@ -8,7 +8,7 @@ A small repository for custom Typescript definitions that I use across multiple 
 npm install "git+https://git@github.com/nozzlegear/ts-definitions.git"
 ```
 
-Optionally use [TSD](git+https://git@github.com/definitelytyped/tsd) to add a reference to the newly installed definitions:
+Optionally use [TSD](https://github.com/definitelytyped/tsd) to add a reference to the newly installed definitions:
 
 ```bash
 tsd link
