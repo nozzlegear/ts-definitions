@@ -1,0 +1,25 @@
+{
+    "name": "reqwest.d.ts",
+    "version": "1.0.0",
+    "description": "A definition file for reqwest.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nozzlegear/reqwest.d.ts.git"
+    },
+    "author": "Joshua Harms",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nozzlegear/reqwest.d.ts/issues"
+    },
+    "homepage": "https://github.com/nozzlegear/reqwest.d.ts#readme",
+    "typescript":{
+        "definitions":[
+            "typings/reqwest/reqwest.d.ts",
+            "typings/reqwest/reqwest-static.d.ts"
+        ]
+    }
+}
