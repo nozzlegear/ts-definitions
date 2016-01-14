@@ -1,25 +1,28 @@
 {
-    "name": "reqwest.d.ts",
+    "name": "ts-definitions",
     "version": "1.0.0",
-    "description": "A definition file for reqwest.js",
+    "description": "Custom Typescript definition files that I use across multiple projects.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/nozzlegear/reqwest.d.ts.git"
+        "url": "git+https://github.com/nozzlegear/ts-definitions.git"
     },
     "author": "Joshua Harms",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/nozzlegear/reqwest.d.ts/issues"
+        "url": "https://github.com/nozzlegear/ts-definitions/issues"
     },
-    "homepage": "https://github.com/nozzlegear/reqwest.d.ts#readme",
+    "homepage": "https://github.com/nozzlegear/ts-definitions#readme",
     "typescript":{
         "definitions":[
             "typings/reqwest/reqwest.d.ts",
-            "typings/reqwest/reqwest-static.d.ts"
+            "typings/reqwest/reqwest-static.d.ts",
+            "typings/winjs/winjs.ui.contentdialog.d.ts",
+            "typings/winrt/windows.ui.core.systemnavigationmanager.d.ts",
+            "typings/winrt/windows.web.http.d.ts"
         ]
     }
 }
