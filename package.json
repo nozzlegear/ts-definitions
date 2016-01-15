@@ -22,7 +22,9 @@
             "typings/reqwest/reqwest-static.d.ts",
             "typings/winjs/winjs.ui.contentdialog.d.ts",
             "typings/winrt/windows.ui.core.systemnavigationmanager.d.ts",
-            "typings/winrt/windows.web.http.d.ts"
+            "typings/winrt/windows.web.http.d.ts",
+            "typings/react-winjs/react-winjs.d.ts",
+            "typings/react-winjs/react-winjs-static.d.ts"
         ]
     }
 }
