@@ -20,6 +20,8 @@ Some of the definitions may be incomplete (especially the Windows-specific ones)
 
 [reqwest.js](https://github.com/ded/reqwest)
 
+[ReactWinJS](https://github.com/winjs/react-winjs)
+
 [WinJS.UI.ContentDialog](https://gitub.com/winjs/winjs)
 
 [Windows.UI.Core.SystemNavigationManager](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.core.systemnavigationmanager.aspx)
