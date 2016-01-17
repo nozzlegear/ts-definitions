@@ -1,7 +1,6 @@
 /// <reference path="./../react/react.d.ts" />
 /// <reference path="./../winjs/winjs.d.ts" />
 
-
 declare namespace __ReactWinJS
 {
     import React = __React;
@@ -83,6 +82,20 @@ declare namespace __ReactWinJS
         A function that generates a React component. Use the returned function from ReactWinJS.reactRenderer().
         */
         itemTemplate: (data) => (data) => React.Component<any, any> | JSX.Element;
+        
+        /**
+         * Specifies how many ListView items can be selected.
+         */
+        selectionMode?: WinJS.UI.SelectionMode;
+        
+        itemsDraggable?: boolean;
+        
+        itemsReorderable?: boolean;
+        
+        /**
+         * Specifies how items in a ListView respond to the tap interaction.
+         */
+        tapBehavior?: WinJS.UI.TapBehavior;
     }
     
     class ListView extends React.Component<IListViewProps, any> { }
