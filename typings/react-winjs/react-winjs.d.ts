@@ -5,6 +5,19 @@ declare namespace __ReactWinJS
 {
     import React = __React;
     
+    interface WinJSComponent<T> extends React.Props<T>
+    {
+        className: string;
+        
+        style: React.HTMLProps<HTMLStyleElement>;
+        
+        id: string;
+        
+        "aria-controls": string;
+        
+        "aria-expanded": string;
+    }
+    
     /**
      * Creates a callback function that renders a piece of data with the
      * @param data
@@ -56,7 +69,7 @@ declare namespace __ReactWinJS
 
     class ItemContainer extends React.Component<any, any>{ }
 
-    interface IListViewProps extends React.Props<any>
+    interface IListViewProps extends WinJSComponent<any>
     {
         /**
          * The list view's header element.
@@ -100,7 +113,7 @@ declare namespace __ReactWinJS
     
     class ListView extends React.Component<IListViewProps, any> { }
     
-    interface IMenuProps extends React.Props<any>
+    interface IMenuProps extends WinJSComponent<any>
     {
         button: any;
         toggle: any;
@@ -113,7 +126,7 @@ declare namespace __ReactWinJS
      */
     class Menu extends React.Component<IMenuProps, any> { }
 
-    interface IPivotProps extends React.Props<any>
+    interface IPivotProps extends WinJSComponent<any>
     {
         customLeftHeaderComponent: React.Component<any, any>;    
         customRightHeaderComponent: React.Component<any, any>;
@@ -124,7 +137,7 @@ declare namespace __ReactWinJS
      */
     class Pivot extends React.Component<any, any> { }
     
-    interface IRatingProps extends React.Props<any>
+    interface IRatingProps extends WinJSComponent<any>
     {
         maxRating: number;
         userRating: number;
@@ -134,7 +147,7 @@ declare namespace __ReactWinJS
     
     class SemanticZoom extends React.Component<any, any> { }
     
-    interface ISplitViewProps extends React.Props<any>
+    interface ISplitViewProps extends WinJSComponent<any>
     {
         paneComponent: React.ComponentClass<any>;
         contentComponent: React.ComponentClass<any>;
@@ -142,7 +155,7 @@ declare namespace __ReactWinJS
     
     class SplitView extends React.Component<any, any> { }
     
-    interface ISplitViewPaneToggleProps extends React.Props<any>
+    interface ISplitViewPaneToggleProps extends WinJSComponent<any>
     {
         paneOpened: boolean;
     }
