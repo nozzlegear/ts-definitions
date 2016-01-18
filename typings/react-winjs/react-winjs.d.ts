@@ -9,7 +9,7 @@ declare namespace __ReactWinJS
     {
         className?: string;
         
-        style?: React.HTMLProps<HTMLStyleElement>;
+        style?: React.CSSProperties;
         
         id?: string;
         
