@@ -7,15 +7,15 @@ declare namespace __ReactWinJS
     
     interface WinJSComponent<T> extends React.Props<T>
     {
-        className: string;
+        className?: string;
         
-        style: React.HTMLProps<HTMLStyleElement>;
+        style?: React.HTMLProps<HTMLStyleElement>;
         
-        id: string;
+        id?: string;
         
-        "aria-controls": string;
+        "aria-controls"?: string;
         
-        "aria-expanded": string;
+        "aria-expanded"?: string;
     }
     
     /**
