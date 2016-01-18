@@ -61,12 +61,12 @@ declare namespace __ReactWinJS
         /**
          * The list view's header element.
          */
-        headerComponent?: React.Component<any, any>;
+        headerComponent?: JSX.Element | JSX.ElementClass;
 
         /**
          * The list view's footer element. 
          */
-        footerComponent?: React.Component<any, any>;
+        footerComponent?: JSX.Element | JSX.ElementClass;
 
         /**
          * The list view's layout type. Valid values are WinJS.UI.ListLayout or WinJS.UI.GridLayout.
@@ -81,7 +81,7 @@ declare namespace __ReactWinJS
         /**
         A function that generates a React component. Use the returned function from ReactWinJS.reactRenderer().
         */
-        itemTemplate: (data) => (data) => React.Component<any, any> | JSX.Element;
+        itemTemplate: (data) => (data) => JSX.Element | JSX.ElementClass;
         
         /**
          * Specifies how many ListView items can be selected.

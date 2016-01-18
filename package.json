@@ -1,6 +1,6 @@
 {
     "name": "ts-definitions",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Custom Typescript definition files that I use across multiple projects.",
     "main": "index.js",
     "scripts": {
