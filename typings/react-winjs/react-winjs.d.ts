@@ -1,6 +1,3 @@
-/// <reference path="./../react/react.d.ts" />
-/// <reference path="./../winjs/winjs.d.ts" />
-
 declare namespace __ReactWinJS
 {
     import React = __React;
@@ -42,7 +39,7 @@ declare namespace __ReactWinJS
         /**
         Provide the flyout content as the child of this element.
         */
-        class FlyoutCommand extends React.Component<{ flyoutComponent: any; }, any>{ }
+        class FlyoutCommand extends React.Component<any, any>{ }
     }
 
     class AutoSuggestBox extends React.Component<any, any>{ }

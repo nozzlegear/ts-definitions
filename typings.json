@@ -1,0 +1,11 @@
+{
+  "name": "ts-definitions",
+  "main": "index.d.ts",
+  "author": "Joshua Harms <joshua@nozzlegear.com>",
+  "description": "Rando type definitions for various packages.",
+  "ambientDevDependencies": {
+    "react": "registry:dt/react#0.14.0+20160302224448",
+    "winjs": "registry:dt/winjs#2.1.0+20160127104548",
+    "winrt-uwp": "registry:dt/winrt-uwp#0.0.0+20160221175156"
+  }
+}

@@ -1,5 +1,3 @@
-/// <reference path="./winrt.d.ts" />
-
 declare namespace Windows.Web.Http
 {
     export interface IHttpContent

@@ -1,5 +1,3 @@
-
-
 declare module WinJS.UI
 {
     export interface ContentDialogOptions

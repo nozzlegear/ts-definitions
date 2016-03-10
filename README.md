@@ -14,6 +14,12 @@ Optionally use [TSD](https://github.com/definitelytyped/tsd) to add a reference 
 tsd link
 ```
 
+Or, use [Typings](https://github.com/typings/typings) to install definitions:
+
+```bash
+typings install github:nozzlegear/ts-definitions --save
+```
+
 ### Current definitions
 
 Some of the definitions may be incomplete (especially the Windows-specific ones). 
